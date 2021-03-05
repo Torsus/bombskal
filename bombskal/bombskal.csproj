@@ -26,7 +26,7 @@
     <InstallUrl>https://github.com/Torsus/bombskal/tree/master/bombskal/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationRevision>12</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -84,10 +84,6 @@
     <None Include="App.config" />
     <None Include="bomb.exe.deploy" />
     <None Include="bombskal.application" />
-    <None Include="bombskal.exe.config" />
-    <None Include="bombskal.exe.config.deploy" />
-    <None Include="bombskal.exe.deploy" />
-    <None Include="bombskal.exe.manifest" />
     <None Include="publish.htm.deploy" />
     <None Include="setup.exe.deploy" />
   </ItemGroup>
