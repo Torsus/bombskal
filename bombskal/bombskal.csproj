@@ -23,10 +23,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/Torsus/bombskal/master/bombskal/</InstallUrl>
+    <InstallUrl>https://raw.githubusercontent.com/Torsus/bombskal/master/bombskal/install/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>71</ApplicationRevision>
+    <ApplicationRevision>73</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -87,12 +87,6 @@
     <None Include="App.config" />
     <None Include="bomb.exe.deploy" />
     <None Include="bombskal.application" />
-    <None Include="bombskal.exe.config" />
-    <None Include="bombskal.exe.config.deploy" />
-    <None Include="bombskal.exe.deploy" />
-    <None Include="bombskal.exe.manifest" />
-    <None Include="publish.htm.deploy" />
-    <None Include="setup.exe.deploy" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -109,8 +103,6 @@
   <ItemGroup>
     <Content Include="bomb.exe" />
     <Content Include="bombskal.exe" />
-    <Content Include="publish.htm" />
-    <Content Include="setup.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
