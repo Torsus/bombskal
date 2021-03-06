@@ -87,6 +87,11 @@
     <None Include="App.config" />
     <None Include="bomb.exe.deploy" />
     <None Include="bombskal.application" />
+    <None Include="bombskal.exe.config.deploy" />
+    <None Include="bombskal.exe.deploy" />
+    <None Include="bombskal.exe.manifest" />
+    <None Include="publish.htm.deploy" />
+    <None Include="setup.exe.deploy" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
