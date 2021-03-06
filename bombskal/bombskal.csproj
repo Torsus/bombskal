@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bomb.exe.deploy" />
     <None Include="bombskal.application" />
   </ItemGroup>
   <ItemGroup>
